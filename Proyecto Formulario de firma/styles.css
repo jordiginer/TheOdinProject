@@ -1,0 +1,96 @@
+.divgroup label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #707070;
+}
+.divgroup input{
+    width: 300px;
+    padding: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+input:focus{
+    border: solid 1px rgb(27, 183, 255);
+}
+#selva{
+    width: 520px;
+    position: absolute;
+}
+
+#logo{
+    
+    margin: 100px;
+    height: 100px;
+}
+
+
+.centroizq{
+    margin-top: 100px;
+    width: 520px;
+    height: 300px;
+    background-color: #00000086;
+    position: absolute;
+}
+
+.divgroup{
+    flex: 1;
+    margin-right: 50px;
+}
+
+.divgroup:last-child {
+    margin-right: 0;
+}
+
+.registration-form {
+    background-color: #fff;
+    width: 45%;
+    position: absolute;
+    padding: 10px;
+    margin-left: 35%;
+    margin-top: 16%;
+    box-shadow: 0px 24px 40px 3px rgba(0,0,0,0.24);
+    
+}
+.info{
+    position: absolute;
+    padding: 10px;
+    margin-left: 35%;
+    margin-top: 3%;
+    font-weight: bold;
+    font-size: 20px;
+}
+#botoncrear{
+    background-color:  #596D48;
+    color: aliceblue;
+    padding: 10px;
+    font-family: fantasy;
+    
+}
+
+
+
+.abajoderecha{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 38%;
+}
+.divrow{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#pass:invalid{
+    border: solid 1px red;
+}
+
+#pass2:invalid{
+    border: solid 1px red;
+}
+
+form{
+
+}
